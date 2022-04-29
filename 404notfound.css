@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+header p
+{
+    width: 133px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: -0.08em;
+    color: #333333;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.center
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.center .left img
+{
+    height: 447.43px;
+    width: 539.22px;
+}
+
+.center .right button
+{
+    width: 216px;
+    height: 68px;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    background: #333333;
+    border-color: transparent;
+    margin-top: 30px;
+}
+
+footer p
+{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #BDBDBD;
+    line-height: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    margin-top: 308px;
+}
+
+footer p span
+{
+    text-decoration: underline;
+}
+
+.center .right h2
+{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    width: 586px;
+    height: 190px;
+}
+
+.center .right p
+{
+    width: 381px;
+    height: 108px;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+@media screen and (max-width: 400px)
+{
+    .center
+    {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .center .right
+    {
+        margin-top: 50px;
+    }
+
+    .center .left img
+    {
+        height: 286.83px;
+    }
+
+    .center .right h2
+    {
+        font-size: 48px;
+        line-height: 71px;
+        width: 350px;
+        height: 142px;
+    }
+
+    .center .right p
+    {
+        width: 320px;
+        font-size: 18px;
+        line-height: 27px;
+        height: 81px;
+    }
+
+    .center .right button
+    {
+        margin-top: 50px;
+    }
+    
+    footer p
+    {
+        margin-top: 114px;
+    }
+}
