@@ -36,8 +36,6 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
 This is my first time devchallenges. I use the html and css for my page. For design, I use figma. For the first time, I feel like it a lot hard for me(LOL).
 
 ### Built With
